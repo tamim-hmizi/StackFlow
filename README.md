@@ -1,2 +1,2 @@
 # StackFlow
-Innotech app with javaFX  /  CodeNameOne java frameworks .
+StackFlow app with javaFX  /  CodeNameOne java frameworks .

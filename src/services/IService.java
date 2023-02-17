@@ -1,15 +1,16 @@
 package services;
 
 import java.util.List;
+import java.sql.SQLException;
 
 public interface IService<T> {
 
-    public void Create(T t);
+    public void Create(T t) throws SQLException;
 
-    public void Read(T t);
+    public List<T> Read(T t) throws SQLException;
 
-    public void Update(T t);
+    public void Update(T t) throws SQLException;
 
-    public List<T> Delete(T t);
+    public void Delete(T t) throws SQLException;
 
 }

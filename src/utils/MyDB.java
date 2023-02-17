@@ -3,7 +3,7 @@ package utils;
 import java.sql.*;
 
 public class MyDB {
-    private String url = "jdbc:mysql://localhost:3306/esprit", username = "root", password = "";
+    private String url = "jdbc:mysql://localhost:3306/StackFlow", username = "root", password = "";
     private Connection cnx;
     private static MyDB instance;
 

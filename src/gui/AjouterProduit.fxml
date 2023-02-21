@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.AjouterProduitController">
+   <children>
+      <TextField fx:id="TFTitre" layoutX="14.0" layoutY="131.0" promptText="Titre" />
+      <TextField fx:id="TFImage" layoutX="15.0" layoutY="175.0" promptText="Image" />
+      <TextField fx:id="TFPoids" layoutX="15.0" layoutY="216.0" promptText="Poids" />
+      <TextField fx:id="TFPrix" layoutX="15.0" layoutY="259.0" promptText="Prix" />
+      <TextField fx:id="TFEtat" layoutX="15.0" layoutY="305.0" promptText="Etat" />
+      <DatePicker fx:id="TFDate" layoutX="196.0" layoutY="131.0" promptText="Date" />
+      <Button layoutX="534.0" layoutY="353.0" mnemonicParsing="false" onAction="#AjouterProduit" text="Ajouter" />
+   </children>
+</AnchorPane>

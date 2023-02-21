@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.ProduitsController">
+   <children>
+      <Button layoutX="524.0" layoutY="14.0" mnemonicParsing="false" onAction="#AjouterProduits" text="Ajouter" />
+      <TableView fx:id="produitTv" layoutY="100.0" prefHeight="300.0" prefWidth="587.0">
+        <columns>
+          <TableColumn fx:id="TitreTV" prefWidth="75.0" text="Titre" />
+          <TableColumn fx:id="ImageTV" prefWidth="75.0" text="Image" />
+            <TableColumn fx:id="PoidsTV" prefWidth="45.60003662109375" text="Poids" />
+            <TableColumn fx:id="DateTV" prefWidth="95.99998474121094" text="Date" />
+            <TableColumn fx:id="PrixTV" prefWidth="63.20001220703125" text="Prix" />
+            <TableColumn fx:id="EtatTV" prefWidth="47.20001220703125" text="Etat" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

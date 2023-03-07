@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiFT/FormAjouterProduitAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/FormModifierReclamationAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/ReclamationViewAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/SettingsController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/entities/Settings.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/Abonnement_user.fxml</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/MessagerieController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/AbonnementController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/ReclamationItemAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiFT/ProduitDetailsController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiFT/ProduitViewAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/Livraison_userController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/services/ReclamationService.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/SignInController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/Acceuil_userController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/Abonnement_userController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/MessagerieAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/Abonnement.fxml</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiFT/FormAjouterProduitController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/LivraisonController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/Acceuille_adminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiYZ/FormAjoutAvisAdmin.fxml</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/TypeViewAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/QrCodeController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/GuiFT/ProduitsController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/gui/FormAjouterReclamationAdminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/GUI_adminController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/ForgetPasswordController.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/test/MainAjouter.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/interfaces/MessagerieAdmin.fxml</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/utils/MyDB.java</file>
+            <file>file:/C:/Users/larbi/OneDrive/Documents/NetBeansProjects/Amine_stackflow/Stackflowtest/src/services/SettingsService.java</file>
+        </group>
+    </open-files>
+</project-private>

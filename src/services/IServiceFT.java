@@ -5,17 +5,18 @@
  */
 package services;
 
+import entities.ClientRecp;
 import java.sql.SQLException;
 import java.util.List;
 
 /**
  *
- * @author larbi
+ * @author Guide Info
  */
-public interface IService<T> {
-    
-    public void Create(T t) throws SQLException;
+public interface IServiceFT <T>{
+ public void Create(T t) throws SQLException;
     public void Update(T t) throws SQLException;
-    public void Delete(int t) throws SQLException;
+    public void Delete(T t) throws SQLException;
     public List<T> Read() throws SQLException;
+    public List<T> ReadSingle(T t) throws SQLException;
 }

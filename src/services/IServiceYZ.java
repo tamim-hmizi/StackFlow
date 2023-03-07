@@ -10,12 +10,17 @@ import java.util.List;
 
 /**
  *
- * @author larbi
+ * @author jazzmyna
  */
-public interface IService<T> {
-    
+public interface IServiceYZ <T>{
     public void Create(T t) throws SQLException;
-    public void Update(T t) throws SQLException;
-    public void Delete(int t) throws SQLException;
+
     public List<T> Read() throws SQLException;
+
+    public void Update(T t) throws SQLException;
+
+    public void Delete(T t) throws SQLException;
+    
+    public List<T> ReadSingel(T t) throws SQLException;
+    
 }

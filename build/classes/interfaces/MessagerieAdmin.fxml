@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="810.0" prefWidth="1315.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.MessagerieAdminController">
+   <children>
+      <ListView fx:id="list_mess" layoutX="403.0" layoutY="1.0" prefHeight="834.0" prefWidth="911.0" />
+      <VBox layoutX="10.0" prefHeight="836.0" prefWidth="392.0" styleClass="right-bar" stylesheets="@../CSS/Voyage.css">
+         <children>
+            <HBox alignment="CENTER" prefHeight="97.0" prefWidth="392.0">
+               <children>
+                  <Label text="StackFlow">
+                     <font>
+                        <Font name="Cambria Bold" size="40.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="65.0" prefWidth="200.0" stylesheets="@../CSS/Voyage.css">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets left="30.0" right="30.0" />
+               </VBox.margin>
+               <children>
+                  <TextField prefHeight="40.0" prefWidth="235.0" promptText="Type Here To Search" styleClass="transparent">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Search" textFill="WHITE" />
+               </children>
+               <styleClass>
+                  <String fx:value="search-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </HBox>
+            <Pane prefHeight="57.0" prefWidth="435.0" />
+            <VBox alignment="CENTER" prefHeight="567.0" prefWidth="335.0" stylesheets="@../CSS/Voyage.css">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+               <children>
+                  <Button fx:id="Accueil" mnemonicParsing="false" onAction="#Accueil" prefHeight="50.0" prefWidth="270.0" text="Accueil" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="30.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <styleClass>
+                  <String fx:value="search-box" />
+                  <String fx:value="shadow" />
+               </styleClass>
+            </VBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="110.0" prefWidth="200.0" />
+      <ImageView fitHeight="100.0" fitWidth="75.0" layoutX="30.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/stackflow.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

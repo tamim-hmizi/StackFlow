@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.QrCodeController">
+   <children>
+      <Label layoutX="529.0" layoutY="88.0" text="ID Utilisateur" />
+      <TextField fx:id="idField" layoutX="487.0" layoutY="113.0" />
+      <Label layoutX="549.0" layoutY="150.0" text="Nom" />
+      <TextField fx:id="nomField" layoutX="488.0" layoutY="181.0" />
+      <Label layoutX="541.0" layoutY="233.0" text="Prenom" />
+      <TextField fx:id="prenomField" layoutX="487.0" layoutY="265.0" />
+      <ImageView fx:id="qrCodeImage" fitHeight="300.0" fitWidth="300.0" layoutX="412.0" layoutY="327.0" />
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="658.0" prefWidth="296.0" styleClass="Hbox" stylesheets="@../css/utilisateurcss.css">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="60.0" prefWidth="208.0" text="Crée un QrCode">
+                     <font>
+                        <Font name="Cambria" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="299.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/stackflow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox prefHeight="186.0" prefWidth="296.0">
+               <children>
+                  <ImageView fitHeight="188.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/users.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="138.0" prefWidth="296.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/innotech.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="142.0">
+               <children>
+                  <Button onAction="#onGenerateQRCode" prefHeight="26.0" prefWidth="226.0" text="Générer QR Code" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
